@@ -1,0 +1,25 @@
+#video-page {
+    min-height: 100vh;
+    .video-item {
+        height: 135px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #video-page {
+        .video-item {
+            height: 300px;
+        }
+
+        .video-wrapper {
+            img {
+                min-height: 100%;
+                width: 100%;
+            }
+
+            i {
+                font-size: 3rem;
+            }
+        }
+    }
+}

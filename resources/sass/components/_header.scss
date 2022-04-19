@@ -1,0 +1,21 @@
+.header {
+    .logo {
+        img {
+            height: 90px;
+        }
+    }
+
+    .hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+        background-color: $primary-color !important;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .header {
+        .logo {
+            img {
+                height: 60px;
+            }
+        }
+    }
+}

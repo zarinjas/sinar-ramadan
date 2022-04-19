@@ -1,0 +1,23 @@
+#gallery-page {
+    min-height: 100vh;
+    .program-item {
+        img {
+            height: 170px;
+        }
+    }
+    .hadis-hijau-ramadan, .projek-ramadan {
+       img {
+           height: 100% !important;
+       } 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #gallery-page {
+        .program-item {
+            img {
+                height: 130px;
+            }
+        }
+    }
+}

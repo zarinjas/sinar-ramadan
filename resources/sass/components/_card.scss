@@ -1,0 +1,42 @@
+//bootstrap overide
+.card {
+    border-radius: 10px;
+    box-shadow: -4px 4px 7px 0px rgb(0, 0, 0, 0.12);
+    transition: all .1s linear;
+
+    &:hover {
+        box-shadow: -6px 6px 7px 0px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.card-shadow-only {
+    box-shadow: -1px 4px 12px -5px rgba(0, 0, 0, 0.53);
+    border-radius: 10px;
+}
+
+.card-large {
+    width: 22rem;
+    overflow: hidden;
+
+    img {
+        height: 240px;
+    }
+}
+
+.card-medium {
+    width: 20rem;
+    overflow: hidden;
+
+    img {
+        height: 240px;
+    }
+}
+
+.card-small {
+    width: 13rem;
+    overflow: hidden;
+
+    img {
+        height: 170px;
+    }
+}

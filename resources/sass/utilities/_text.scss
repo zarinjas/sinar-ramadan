@@ -1,0 +1,13 @@
+.text-yellow {
+    color: $primary-color;
+}
+
+.fw-semibold {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .fs-mb-normal {
+        font-size: 1rem !important;
+    }
+}

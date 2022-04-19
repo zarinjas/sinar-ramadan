@@ -1,0 +1,17 @@
+.w-fit {
+    width: fit-content;
+}
+
+.h-fit {
+    height: fit-content;
+}
+
+.mw-32 {
+    max-width: 32rem;
+}
+
+@media screen and (max-width: 568px) {
+    .mw-32 {
+        max-width: 100%;
+    }
+}

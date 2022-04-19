@@ -1,0 +1,28 @@
+.donate-modal {
+    .modal-header {
+        // height: 200px;
+        i {
+            color: white;
+            font-size: 5rem;
+        }
+    }
+
+    .modal-button {
+        padding: 5px 25px;
+        border-radius: 30px;
+        border: 1px solid $primary-color;
+    }
+}
+
+
+#successModal {
+    .modal-header {
+        background: #47c9a2;
+    }
+}
+
+#failedModal {
+    .modal-header {
+        background: #ed4337;
+    }
+}
